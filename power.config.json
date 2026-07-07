@@ -1,0 +1,40 @@
+{
+  "version": "1.0",
+  "appId": "519cee85-481a-418c-941b-4ed366f29b01",
+  "appDisplayName": "Cocina Tahm Kench",
+  "region": "prod",
+  "environmentId": "95b4f72c-7cb4-e370-a816-62d067e2de10",
+  "description": "Panel de entregas para el personal de cocina",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {},
+  "databaseReferences": {
+    "default.cds": {
+      "dataSources": {
+        "comandas": {
+          "entitySetName": "cr3d3_comandas",
+          "logicalName": "cr3d3_comanda"
+        },
+        "venta": {
+          "entitySetName": "cr3d3_ventas",
+          "logicalName": "cr3d3_venta"
+        },
+        "producto": {
+          "entitySetName": "cr3d3_productos",
+          "logicalName": "cr3d3_producto"
+        },
+        "cierresdecaja": {
+          "entitySetName": "cr3d3_cierredecajas",
+          "logicalName": "cr3d3_cierredecaja"
+        },
+        "gastos": {
+          "entitySetName": "cr3d3_gastos",
+          "logicalName": "cr3d3_gasto"
+        }
+      },
+      "environmentVariableName": ""
+    }
+  }
+}
