@@ -1,0 +1,19 @@
+# dependencias
+node_modules/
+
+# build
+dist/
+.vite/
+*.tsbuildinfo
+
+# entorno
+.env
+.env.*
+!.env.example
+
+# sistema
+.DS_Store
+Thumbs.db
+
+# Power Platform
+.power/schemas/
